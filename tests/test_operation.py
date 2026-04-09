@@ -9,6 +9,11 @@ class TestMathOperations:
         assert add(-1, 1) == 0
         assert add(0, 0) == 0
 
+    def test_addmul(self):
+        assert add(2, 3, 5) == 10
+        assert add(-1, 1, 5) == 5
+        assert add(0, 0, 7) == 7
+        
     def test_sub(self):
         assert sub(5, 3) == 2
         assert sub(3, 5) == -2

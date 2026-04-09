@@ -1,4 +1,2 @@
 pandas 
 pytest
-autopep8
-pre-commit

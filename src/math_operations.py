@@ -2,6 +2,10 @@ def add(a: float, b: float):
     return a + b
 
 
+def addmul(a: float, b: float, c: float):
+    return a + b + c
+
+
 def sub(a: float, b: float):
     return a - b
 
